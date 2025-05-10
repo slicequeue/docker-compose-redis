@@ -1,0 +1,17 @@
+# Redis data directory
+data/
+
+# Redis configuration backups or temporary files
+conf/*.bak
+conf/*.tmp
+
+# Logs
+*.log
+
+# Docker-related files
+docker-compose.override.yml
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
